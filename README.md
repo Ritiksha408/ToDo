@@ -56,56 +56,8 @@ django-project/
 └── requirements.txt
 ```
 
-## ⚙️ Installation & Setup
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-cd django-project
-```
-
-### 2. Create a virtual environment
-
-```bash
-python -m venv venv
-```
-
-### 3. Activate the virtual environment
-
-**Windows:**
-
-```powershell
-venv\Scripts\Activate.ps1
-```
-
-**macOS/Linux:**
-
-```bash
-source venv/bin/activate
-```
-
-### 4. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 5. Apply migrations
-
-```bash
-python manage.py migrate
-```
-
-### 6. Start the development server
-
-```bash
-python manage.py runserver
-```
-
 Open the application in your browser:
 
-```text
 http://127.0.0.1:8000/
 ```
 
